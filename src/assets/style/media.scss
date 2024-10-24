@@ -1,0 +1,144 @@
+// 大于 768px
+@media only screen and (min-width: 768px) {
+  .public {
+    &-wp {
+      padding: 24px;
+    }
+    &-tabs {
+      li {
+        padding: 0 24px 16px;
+      }
+    }
+    &-search {
+      padding: 15px 0;
+    }
+  }
+  .member {
+    &-details {
+      padding: 16px 24px;
+      padding: 20px;
+      &-wp {
+        .user {
+          &-three {
+            justify-content: space-between;
+            li {
+              min-width: auto;
+            }
+          }
+        }
+        .identity {
+          &-content {
+            display: flex;
+            justify-content: space-between;
+            &-item {
+              border: 0;
+            }
+          }
+        }
+        .statics-title {
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .course {
+    &-topic {
+      .options {
+        &-item {
+          .el-input {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+
+  .order {
+    &-revenue {
+      &-title {
+        padding: 0 20px;
+      }
+      &-statis {
+        .title {
+          padding-top: 5px;
+        }
+      }
+      &-week {
+        .total {
+          &-left {
+            display: block;
+          }
+          em {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .home {
+    &-calendar {
+      &-content {
+        .el-calendar__body {
+          padding: 12px 20px 35px;
+        }
+        .el-calendar__header {
+          padding: 12px 20px;
+        }
+      }
+    }
+  }
+}
+
+// 大于 992px
+@media only screen and (min-width: 992px) {
+  .member {
+    &-details {
+      &-wp {
+        width: 800px;
+        .user-one-icon {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+// 大于 1200px
+@media only screen and (min-width: 1200px) {
+  // 登录
+  // .login {
+  //   &-content {
+  //     width: 1000px;
+  //     justify-content: space-between;
+  //   }
+  // }
+  .home {
+    &-wp {
+      width: 1000px;
+      margin: auto;
+    }
+  }
+  .member {
+    &-details {
+      &-wp {
+        .identity-content-text {
+          p {
+            i {
+              margin-left: 5px;
+              margin-right: 0px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 大于 1920px
+@media only screen and (min-width: 1920px) {
+}
